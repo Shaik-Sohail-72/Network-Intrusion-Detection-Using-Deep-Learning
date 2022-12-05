@@ -9,3 +9,5 @@ Large numbers of businesses were affected by data infringes and Cyber -attacks d
 This project detects Network Intrusion anomalies by using NSL - KDD data-set. The deep learning model Long Short Term Memory (LSTM), superior version of RNN (Recurrent Neural Network) and KNN K - Nearest Neighbour Algorithm) method are used for binary and multi class classification. 
 
 The user enters the hacking parameters in the front end which is designed by using ReactJS. The model predicts the type of attack and gives information about the type of attack to the user. MongoDB is used for storing the data and NodeJS is served as back end framework.
+
+The project is fully responsive and completely based on session and cookies concepts. Once the user authenticated and logged-in It will not ask the user to enter the login parameters again and again (next visit). It ask login parameters only when user click on logout button. And also using google oauth 2.0 for user authentication and storing user details in salted hash in the mongoDB.
