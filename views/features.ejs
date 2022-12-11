@@ -1,0 +1,73 @@
+<%- include('partials/header') %>
+
+
+
+
+  <%-include('partials/loadhead') %>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <!-- complete body without including head -->
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row" style="color: #393E46;">
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-clock fa-4x"></i>
+            <h3 class="feature-title">Network Traffic Processing</h3>
+            <p class="feature-desc">Convert the traffic into multiple network parameter patterns (Signatures)</p>
+          </div>
+  
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-brain fa-4x"></i>
+            <h3 class="feature-title">Prevent System</h3>
+            <p class="feature-desc">Prevent System acts based on the threat detected</p>
+          </div>
+  
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-masks-theater fa-4x"></i>
+            <h3 class="feature-title">Threat Reporting</h3>
+            <p class="feature-desc">Report/Log the threat</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-sharp fa-solid fa-book-skull fa-4x"></i>
+            <h3 class="feature-title">Threat Classification</h3>
+            <p class="feature-desc">Classify the threat based on signature matching</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-users-rays fa-4x"></i>
+            <h3 class="feature-title">Anamaly Detection</h3>
+            <p class="feature-desc">Match the input network signature against already available normal traffic fignature to detect the zero-day attacks</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-brands fa-searchengin fa-4x"></i>
+            <h3 class="feature-title">Signature Matching</h3>
+            <p class="feature-desc">Match the input signature against the already available threat signature patterns</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+   
+  
+  
+    <!-- Press -->
+  
+  
+  
+  
+  
+    <%- include('partials/footer') %>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 200);
+}
+<%-include('partials/loadfoot') %>

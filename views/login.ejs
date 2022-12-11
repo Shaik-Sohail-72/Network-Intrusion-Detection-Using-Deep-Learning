@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+
+
+
+
+<%-include('partials/loadhead') %>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <!-- complete body without including head -->
+  <div class="row">
+    <div class="login-box">
+      <h1>Login</h1>
+      <form action="/login" method="post">
+      <div class="textbox">
+        <i class="fas fa-user login-icons"></i>
+        <input type="email" placeholder="User-Name (Email)" name="username">
+      </div>
+      <div class="textbox">
+        <i class="fas fa-lock login-icons" ></i>
+        <input type="password" placeholder="Password" name="password">
+      </div>
+      <a href="/register" style="color: white;float: right;font-size: small">Don't have an account? Sign Up</a>
+      <button type="submit" class="btn btn-success">LOGIN</button></form>
+      <a class="btn btn-block btn-social btn-google btn-dark" style="text-align: center;background-color: #dd4b39; #dd4b39" href="/auth/google" role="button">
+        <i class="fab fa-google"></i>
+        Login with Google
+      </a>
+    </div>
+    </div>
+    <%-include('partials/footer') %>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 200);
+}
+<%-include('partials/loadfoot') %>

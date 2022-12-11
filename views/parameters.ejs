@@ -1,0 +1,184 @@
+<%-include('partials/header') %>
+
+
+
+
+
+<%-include('partials/loadhead') %>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <!-- complete body without including head -->
+  <div class="row">
+    <div class="login-box">
+      <h1>Parameters</h1>
+      <form action="/parameters" method="post">
+
+        <div class="textbox">
+          <select name="protocol_type">
+            <option value="" disabled="disabled" selected="selected">Protocol Type</option>
+            <option value="tcp">TCP</option>
+            <option value="udp">UDP</option>
+            <option value="icmp">ICMP</option>
+          </select>
+        </div>
+      <div class="textbox">
+        <select name="service">
+          <option value="" disabled="disabled" selected="selected">Service</option>
+          <option value="IRC">IRC</option>
+          <option value="X11">X11</option>
+          <option value="Z39_50">Z39_50</option>
+          <option value="http_8001">http_8001</option>
+          <option value="Z39_50">Z39_50</option>
+          <option value="auth">auth</option>
+          <option value="bgp">bgp</option>
+          <option value="courier">courier</option>
+          <option value="csnet_ns">csnet_ns</option>
+          <option value="ctf">ctf</option>
+          <option value="daytime">daytime</option>
+          <option value="discard">discard</option>
+          <option value="domain">domain</option>
+          <option value="domain_u">domain_u</option>
+          <option value="echo">echo</option>
+          <option value="eco_i">eco_i</option>
+          <option value="ecr_i">ecr_i</option>
+          <option value="efs">efs</option>
+          <option value="exec">exec</option>
+          <option value="finger">finger</option>
+          <option value="ftp">ftp</option>
+          <option value="ftp_data">ftp_data</option>
+          <option value="gopher">gopher</option>
+          <option value="harvest">harvest</option>
+          <option value="hostnames">hostnames</option>
+          <option value="http">http</option>
+          <option value="http_2784">http_2784</option>
+          <option value="http_443">http_443</option>
+          <option value="aol">aol</option>
+          <option value="imap4">imap4</option>
+          <option value="iso_tsap">iso_tsap</option>
+          <option value="klogin">klogin</option>
+          <option value="kshell">kshell</option>
+          <option value="ldap">ldap</option>
+          <option value="link">link</option>
+          <option value="login">login</option>
+          <option value="mtp">mtp</option>
+          <option value="name">name</option>
+          <option value="netbios_dgm">netbios_dgm</option>
+          <option value="netbios_ns">netbios_ns</option>
+          <option value="netbios_ssn">netbios_ssn</option>
+          <option value="netstat">netstat</option>
+          <option value="nnsp">nnsp</option>
+          <option value="nntp">nntp</option>
+          <option value="ntp_u">ntp_u</option>
+          <option value="other">other</option>
+          <option value="pm_dump">pm_dump</option>
+          <option value="pop_2">pop_2</option>
+          <option value="pop_3">pop_3</option>
+          <option value="printer">printer</option>
+          <option value="private">private</option>
+          <option value="red_i">red_i</option>
+          <option value="remote_job">remote_job</option>
+          <option value="rje">rje</option>
+          <option value="shell">shell</option>
+          <option value="smtp">smtp</option>
+          <option value="sql_net">sql_net</option>
+          <option value="ssh">ssh</option>
+          <option value="sunrpc">sunrpc</option>
+          <option value="supdup">supdup</option>
+          <option value="systat">systat</option>
+          <option value="telnet">telnet</option>
+          <option value="tftp_u">tftp_u</option>
+          <option value="tim_i">tim_i</option>
+          <option value="time">time</option>
+          <option value="urh_i">urh_i</option>
+          <option value="urp_i">urp_i</option>
+          <option value="uucp">uucp</option>
+          <option value="uucp_path">uucp_path</option>
+          <option value="vmnet">vmnet</option>
+          <option value="whois">whois</option>
+        </select>
+      </div>
+      <div class="textbox">
+        <select name="flag">
+          <option value="" disabled="disabled" selected="selected">Flag</option>
+          <option value="OTH">OTH</option>
+          <option value="REJ">REJ</option>
+          <option value="RSTO">RSTO</option>
+          <option value="RSTOS0">RSTOS0</option>
+          <option value="RSTR">RSTR</option>
+          <option value="S0">S0</option>
+          <option value="S1">S1</option>
+          <option value="S2">S2</option>
+          <option value="S3">S3</option>
+          <option value="SF">SF</option>
+          <option value="SH">SH</option>
+        </select>
+      </div>
+      
+      <div class="textbox">
+        <input type="text" placeholder="logged_in" name="logged_in">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="count" name="count">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="srv_serror_rate" name="srv_serror_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="srv_rerror_rate" name="srv_rerror_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="same_srv_rate" name="same_srv_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="diff_srv_rate" name="diff_srv_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="dst_host_count" name="dst_host_count">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="dst_host_srv_count" name="dst_host_srv_count">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="dst_host_same_srv_rate" name="dst_host_same_srv_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="dst_host_diff_srv_rate" name="dst_host_diff_srv_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="dst_host_same_src_port_rate" name="dst_host_same_src_port_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="dst_host_serror_rate" name="dst_host_serror_rate">
+      </div>
+
+      <div class="textbox">
+        <input type="text" placeholder="dst_host_rerror_rate" name="dst_host_rerror_rate">
+      </div>
+
+      <button type="submit" class="btn">Predict</button></form> 
+    </div>
+    </div>
+<%-include('partials/footer') %>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 200);
+}
+<%-include('partials/loadfoot') %>

@@ -1,0 +1,77 @@
+<%-include('partials/header') %>
+
+
+
+<%-include('partials/loadhead') %>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <!-- complete body without including head -->
+  <div class="row">
+    <div class="container-fluid">
+      <div class="login-box">
+        <h1>K-NEAREST NEIGHBOUR BINARY-CLASS CLASSIFICATION TABLE</h1>
+        </div>
+        <table class="table table-striped" style="color: #fff;">
+            <thead>
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">PRECISION</th>
+                <th scope="col">RECALL</th>
+                <th scope="col">F-1 SCORE</th>
+                <th scope="col">SUPPORT</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">NORMAL</th>
+                <td>0.97</td>
+                <td>0.97</td>
+                <td>0.97</td>
+                <td>9246</td>
+              </tr>
+              <tr>
+                <th scope="row">ATTACK</th>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>12169</td>
+              </tr>
+              <tr>
+                <th scope="row">ACCURACY</th>
+                <td>
+                </td>
+                <td></td>
+                <td>0.98</td>
+                <td>21415</td>
+              </tr>
+              <tr>
+                <th scope="row">MACRO AVERAGE</th>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>21415</td>
+              </tr>
+              <tr>
+                <th scope="row">WEIGHTED AVERAGE</th>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>21415</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+<%-include('partials/footer') %>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 200);
+}
+<%-include('partials/loadfoot') %>

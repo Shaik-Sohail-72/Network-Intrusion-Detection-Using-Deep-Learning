@@ -1,0 +1,69 @@
+<%- include('partials/header') %>
+  <!-- Testimonials -->
+<%- include('partials/loadhead') %>
+  <body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+      <section class="colored-section" id="testimonials" style="background-color: #00ADB5;">
+
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <div class="card text-center">
+                <div class="card-body" style="background-color: #71C9CE;">
+                  <h5 class="card-title">Denial of Service (DoS)</h5>
+                  <p class="card-text">A Denial-of-Service (DoS) attack is an attack meant to shut down a machine or network, making it inaccessible to its intended users. DoS attacks accomplish this by flooding the target with traffic, or sending it information that triggers a crash. In both instances, the DoS attack deprives legitimate users (i.e. employees, members, or account holders) of the service or resource they expected.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item container-fluid">
+              <div class="card text-center">
+                <div class="card-body" style="background-color: #71C9CE;">
+                  <h5 class="card-title">Probe</h5>
+                  <p class="card-text">Probing is another type of attack in which the intruder scans network devices to determine weakness in topology design or some opened ports and then use them in the future for illegal access to personal information.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item container-fluid">
+              <div class="card text-center">
+                <div class="card-body" style="background-color: #71C9CE;">
+                  <h5 class="card-title">Remote to user (R2L)</h5>
+                  <p class="card-text">Remote to user (R2L) is a type of computer network attacks, in which an intruder sends set of packets to another computer or server over a network where he/she does not have permission to access as a local user.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item container-fluid">
+              <div class="card text-center">
+                <div class="card-body" style="background-color: #71C9CE;">
+                  <h5 class="card-title">User to root (U2R)</h5>
+                  <p class="card-text">User to root (U2R) is an another type of attack where the intruder tries to access the network resources as a normal user,  and after several attempts, the intruder becomes as a full access user..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+    
+      </section>
+      <%- include('partials/footer') %>
+    </div>
+   
+    
+    <script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 200);
+    }
+  <%- include('partials/loadfoot') %>
+    
+
+  
+ 
