@@ -18,24 +18,53 @@ The user enters the hacking parameters in the front end which is designed by usi
 The project is fully responsive and completely based on session and cookies concepts. Once the user authenticated and logged-in It will not ask the user to enter the login parameters again and again (next visit). It ask login parameters only when user click on logout button. And also using google oauth 2.0 for user authentication and storing user details in salted hash in the mongoDB.
 
 ## Some Screenshots: 
-![Screenshot (749)](https://user-images.githubusercontent.com/106341416/206923236-74003e44-591f-43cc-bd54-3f1de7a7c215.png)
-![Screenshot (750)](https://user-images.githubusercontent.com/106341416/206923239-08f60a5b-8480-470d-8e66-b144ff46955c.png)
-![Screensh![Screenshot (752)](https://user-images.githubusercontent.com/106341416/206923247-8390e239-fd6e-43a2-880a-13459cd34e13.png)
-ot (751)](https://user-images.githubusercontent.com/106341416/206923246-00ab23fc-f8a8-49dc-aae8-b18f8c4b7dbd.png)
-![Screenshot (753)](https://user-images.githubusercontent.com/106341416/206923255-810ba5b5-728f-40ad-bb03-814e56f0a696.png)
-![Screenshot (754)](https://user-i![Screenshot (757)](https://user-images.githubusercontent.com/106341416/206923268-149372b1-9c1b-49c7-bbc5-97a32ed748ee.png)
-mages.githubusercontent.com/106341416/206923257-43079560-dc2a-49a5-9887-01180f7dd015.png)
-![Screenshot (755)](https://user-images.githubusercontent.com/106341416/206923258-1d32b38b-f504-46fb-888b-69fecea2583e.png)
-![Screenshot (756)](https://user-images.githubusercontent.com/106341416/206923260-ea03bc49-9b57-4c2a-8abe-c86418276be7.png)
-![Screenshot (757)](https://user-images.githubusercontent.com/106341416/206923275-dda87834-ff2e-46c6-808c-702e577f3385.png)
-![Screenshot (758)](https://user-images.githubusercontent.com/106341416/206923279-46d312f8-655e-48f3-a72a-86475a3411ca.png)
-![Screenshot (759)](https://user-images.githubusercontent.com/106341416/206923320-1005031e-1e62-468c-a9c9-12aef9969744.png)
-![Screenshot (760)](https://user-images.githubusercontent.com/106341416/206923325-03563106-866e-4e94-8ad5-553cd02cc119.png)
-![Screenshot (761)](https://user-images.githubusercontent.com/106341416/206923326-ae9a1d40-887e-4808-8876-c0ddd1c97fd2.png)
-![Screenshot (762)](https://user-images.githubusercontent.com/106341416/206923329-2b3cf3b6-82b6-4b41-b2c9-0a0789adcf64.png)
-![Screenshot (763)](https://user-images.githubusercontent.com/106341416/206923349-da74e28b-63b3-4f65-8190-5659c709d3bf.png)
-![Screenshot (764)](https://user-images.githubusercontent.com/106341416/206923360-0e7f4cd5-dfeb-4351-bf05-fe7b755a648a.png)
-![Screenshot (765)](https://user-images.githubusercontent.com/106341416/206923363-11a0d946-f4e3-486d-8439-25987f75f3f7.png)
-![Screenshot (766)](https://user-images.githubusercontent.com/106341416/206923413-8a76ed21-52e0-4494-a95a-9b290ca27003.png)
-![Screenshot (767)](https://user-images.githubusercontent.com/106341416/206923419-352e68d4-998a-42ed-bade-02bbddec7e59.png)
-![Screenshot (768)](https://user-images.githubusercontent.com/106341416/206923420-07fa598e-ff9d-4aaa-8dbf-b6c7f7889fb9.png)
+
+![Screenshot (775)](https://user-images.githubusercontent.com/106341416/206925959-e30bdaba-9d4d-48f0-af1c-b95652ff4616.png)
+
+![Screenshot (776)](https://user-images.githubusercontent.com/106341416/206925965-48052093-a2c9-4ded-8295-d794e6b44dd2.png)
+
+![Screenshot (777)](https://user-images.githubusercontent.com/106341416/206925966-ca0ae650-8634-46e4-9f76-2747dd9fa764.png)
+
+![Screenshot (778)](https://user-images.githubusercontent.com/106341416/206925970-42cc1fbd-34cb-48b3-b060-6ebf0390c227.png)
+
+![Screenshot (779)](https://user-images.githubusercontent.com/106341416/206925990-bfb4bfc1-0e29-4ec7-8a05-eb0ac08dd7cb.png)
+
+![Screenshot (780)](https://user-images.githubusercontent.com/106341416/206925994-33c8a787-9214-49ec-874e-492180033063.png)
+
+![Screenshot (783)](https://user-images.githubusercontent.com/106341416/206925998-dbea5706-6494-4287-af71-7f47be7c8088.png)
+
+![Screenshot (784)](https://user-images.githubusercontent.com/106341416/206926001-b395d89e-beca-45c9-b030-0f06fa03ff13.png)
+
+![a](https://user-images.githubusercontent.com/106341416/206926006-5a80afbb-4667-4f7f-bf04-85df39fad289.png)
+
+![Screenshot (785)](https://user-images.githubusercontent.com/106341416/206926016-f306c767-e6cf-4886-a24a-1d3fbd4f0f74.png)
+
+![Screenshot (786)](https://user-images.githubusercontent.com/106341416/206926020-3c7c86e3-8093-4a8c-ac0c-9444bcea7725.png)
+
+![Screenshot (787)](https://user-images.githubusercontent.com/106341416/206926024-172f1834-ed4a-41b6-af53-ca056a1909cd.png)
+
+![Screenshot (788)](https://user-images.githubusercontent.com/106341416/206926028-fb46cfe6-16bb-4039-a1c7-efd1fb894cde.png)
+
+![Screenshot (789)](https://user-images.githubusercontent.com/106341416/206926040-b3ab8aa1-8c93-43d4-b1c4-2a802b535d73.png)
+
+![Screenshot (790)](https://user-images.githubusercontent.com/106341416/206926045-7df0de51-132e-4358-a867-811823be92f8.png)
+
+![Screenshot (791)](https://user-images.githubusercontent.com/106341416/206926049-4267228a-998e-477a-9bee-80cc2f6777ac.png)
+
+![Screenshot (792)](https://user-images.githubusercontent.com/106341416/206926052-cca35e73-d0b1-4072-b5a2-395ee9d26f39.png)
+
+![Screenshot (793)](https://user-images.githubusercontent.com/106341416/206926054-d4272c4d-456b-4502-b034-b34a2a507f14.png)
+
+![Screenshot (794)](https://user-images.githubusercontent.com/106341416/206926063-41971a80-d7ac-40c1-96e8-c0ed9c18e740.png)
+
+![Screenshot (795)](https://user-images.githubusercontent.com/106341416/206926066-981e5fb8-8e54-4720-a662-7ecec4b44b1d.png)
+
+![Screenshot (796)](https://user-images.githubusercontent.com/106341416/206926070-d21a03de-3d8f-4a18-9c2c-566a7d438eea.png)
+
+![Screenshot (797)](https://user-images.githubusercontent.com/106341416/206926074-e9e5fdd9-621e-4f74-a0ac-99c2351cd744.png)
+
+![Screenshot (798)](https://user-images.githubusercontent.com/106341416/206926077-823df159-1162-4d50-b8a9-27a89a3ac19d.png)
+
+![Screenshot (799)](https://user-images.githubusercontent.com/106341416/206926082-4654180b-144e-4ac7-840f-8c66e344c0be.png)
+
+![Screenshot (800)](https://user-images.githubusercontent.com/106341416/206926087-aee6a0d9-9790-49d0-bd16-de8b1a46f453.png)
