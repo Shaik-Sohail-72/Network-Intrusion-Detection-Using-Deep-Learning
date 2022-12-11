@@ -2,7 +2,7 @@
 ## Objective : 
 Cyber Security: Development of Network Intrusion Detection System (NIDS),   with Machine Learning and Deep Learning, Recurrent Neural Network models, MERN web I/O System.
 ## How to start: 
-Step-1 : Clone the project using command [git clone ""]   
+Step-1 : Fork or Clone the project using command [git clone "https://github.com/Shaik-Sohail-72/Network-Intrusion-Detection-Using-Deep-Learning.git"]   
 Step-2 : Create a .env file and set up the dovenv variable which is used in app.js (or) remove dotenv variables from app.js and set the links like mongoDB link etc.            
 Step-3 : Use command [npm install] to install all the packages.                                                                                                          
 Step-4 : Use command [node app.js] to run it locally.
