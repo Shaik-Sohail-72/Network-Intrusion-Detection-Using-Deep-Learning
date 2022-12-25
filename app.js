@@ -357,6 +357,9 @@ app.get("/cnn_table",function(req,res){
 app.get("/lstm_table",function(req,res){
   res.render("lstm_table");
 });
+app.get("/stats",function(req,res){
+  res.render("stats");
+});
 app.get("/parameters",function(req,res){
   res.render("parameters");
 })

@@ -1,7 +1,7 @@
 {
-  "name": "Secrets",
+  "name": "secrets",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cyber Security: Development of Network Intrusion Detection System (NIDS),   with Machine Learning and Deep Learning, Recurrent Neural Network models, MERN web I/O System.\r ## How to start: \r Step-1 : Fork or Clone the project using command [git clone \"https://github.com/Shaik-Sohail-72/Network-Intrusion-Detection-Using-Deep-Learning.git\"]   \r Step-2 : Create a .env file and set up the dovenv variable which is used in app.js (or) remove dotenv variables from app.js and set the links like mongoDB link etc.            \r Step-3 : Use command [npm install] to install all the packages.                                                                                                          \r Step-4 : Use command [node app.js] to run it locally.\r ## Description : \r Large numbers of businesses were affected by data infringes and Cyber -attacks due to dependency on internet. To prevent such malicious activity, the network requires a system that detects anomaly and inform the user and alerts the user.",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -14,6 +14,7 @@
     "mongoose": "^5.4.5",
     "mongoose-findorcreate": "^3.0.0",
     "multer": "^1.4.4",
+    "nodemon": "^2.0.20",
     "passport": "^0.4.0",
     "passport-google-oauth2": "^0.2.0",
     "passport-google-oauth20": "^2.0.0",
@@ -35,5 +36,13 @@
     "mocha": "~2.3.3",
     "should": "~7.1.0",
     "supertest": "~1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohdSaif-1807/Network-Intrusion-Detection-Using-Deep-Learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MohdSaif-1807/Network-Intrusion-Detection-Using-Deep-Learning/issues"
+  },
+  "homepage": "https://github.com/MohdSaif-1807/Network-Intrusion-Detection-Using-Deep-Learning#readme"
 }

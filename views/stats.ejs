@@ -1,0 +1,640 @@
+<%-include('partials/header') %>
+
+
+
+<%-include('partials/loadhead') %>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <!-- complete body without including head -->
+  <div class="row">
+    <div class="container-fluid">
+      <div class="login-box">
+        <h1>BINARY-CLASS CLASSIFICATION TABLE</h1>
+        </div>
+        <table class="table table-striped" style="color: #fff;">
+            <thead>
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">ALGORITHMS</th>
+                <th scope="col">PRECISION</th>
+                <th scope="col">RECALL</th>
+                <th scope="col">F-1 SCORE</th>
+                <th scope="col">SUPPORT</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4">
+                        NORMAL
+                    </th>
+                    <td>
+                        KNN
+                    </td>
+                    <td>
+0.97
+                    </td>
+                    <td>0.97</td>
+                    <td>0.97</td>
+                    <td>9246</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        RANDOM FOREST
+                    </td>
+                    <td>0.99
+                    </td>
+                    <td>0.96</td>
+                    <td>0.97</td>
+                    <td>9847</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        CNN
+                    </td>
+                    <td>
+0.94
+                    </td>
+                    <td>0.96</td>
+                    <td>0.95</td>
+                    <td>9217</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        LSTM
+                    </td>
+                    <td>
+0.94
+                    </td>
+                    <td>0.96</td>
+                    <td>0.95</td>
+                    <td>9217</td>
+
+                </tr>
+            <tr>
+                <th rowspan="4">ATTACK</th>
+                <td>KNN</td>
+                <td>
+                        0.98
+                </td>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>12169</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>0.97
+                </td>
+                <td>0.99</td>
+                <td>0.98</td>
+                <td>11928</td>
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+0.97
+                </td>
+                <td>0.96</td>
+                <td>0.96</td>
+                <td>12198</td>
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>
+0.97
+                </td>
+                <td>0.96</td>
+                <td>0.96</td>
+                <td>12198</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">ACCURACY</th>
+                <td>KNN</td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.98</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">MACRO AVERAGE</th>
+                <td>KNN</td>
+                <td>
+                    0.98
+
+                </td>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>
+0.98
+                </td>
+                <td>0.97</td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+0.96
+                </td>
+                <td>0.96</td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>0.95
+
+                </td>
+                <td>0.96</td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">WEIGHTED AVERAGE</th>
+                <td>KNN</td>
+                <td>0.98
+                </td>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>
+0.97
+                </td>
+                <td>0.97</td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>0.96
+                </td>
+                <td>0.96</td>
+                <td>0.96</td>
+
+                <td>21415</td>
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>0.96
+
+                </td>
+                <td>0.96</td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+          <br>
+          <div class="login-box">
+            <h1>MULTI-CLASS CLASSIFICATION TABLE</h1>
+            </div>
+          <table class="table table-striped" style="color: #fff;">
+            <thead>
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">ALGORITHMS</th>
+                <th scope="col">PRECISION</th>
+                <th scope="col">RECALL</th>
+                <th scope="col">F-1 SCORE</th>
+                <th scope="col">SUPPORT</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4">
+                        DOS
+                    </th>
+                    <td>
+                        KNN
+                    </td>
+                    <td>
+                        0.99
+                    </td>
+                    <td>0.99</td>
+                    <td>0.99</td>
+                    <td>6834</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        RANDOM FOREST
+                    </td>
+                    <td>1.00
+                    </td>
+                    <td>1.00</td>
+                    <td>1.00</td>
+                    <td>6822</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        CNN
+                    </td>
+                    <td>
+0.99
+                    </td>
+                    <td>0.97</td>
+                    <td>0.98</td>
+                    <td>6822</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        LSTM
+                    </td>
+                    <td>
+1.00
+                    </td>
+                    <td>0.97</td>
+                    <td>0.98</td>
+                    <td>6822</td>
+
+                </tr>
+            <tr>
+                <th rowspan="4">NORMAL</th>
+                <td>KNN</td>
+                <td>
+                        0.97
+                </td>
+                <td>0.97</td>
+                <td>0.97</td>
+                <td>9270</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>0.99
+                </td>
+                <td>0.95</td>
+                <td>0.97</td>
+                <td>9513</td>
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+0.92
+                </td>
+                <td>0.98</td>
+                <td>0.95</td>
+                <td>9217</td>
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>
+0.94
+                </td>
+                <td>0.97</td>
+                <td>0.96</td>
+                <td>9217</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">PROBE</th>
+                <td>KNN</td>
+                <td>
+                        0.98
+                </td>
+                <td>0.98</td>
+                <td>0.98</td>
+                <td>2307</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>1.00
+                </td>
+                <td>1.00</td>
+                <td>1.00</td>
+                <td>2308</td>
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+0.94
+                </td>
+                <td>0.97</td>
+                <td>0.96</td>
+                <td>2298</td>
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>
+0.96
+                </td>
+                <td>0.98</td>
+                <td>0.97</td>
+                <td>2298</td>
+
+            </tr><tr>
+                <th rowspan="4">U2R</th>
+                <td>KNN</td>
+                <td>
+                        0.84
+                </td>
+                <td>0.87</td>
+                <td>0.86</td>
+                <td>919</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>0.83
+                </td>
+                <td>1.00</td>
+                <td>0.90</td>
+                <td>1765</td>
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+0.97
+                </td>
+                <td>0.89</td>
+                <td>0.93</td>
+                <td>2125</td>
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>
+0.97
+                </td>
+                <td>0.90</td>
+                <td>0.94</td>
+                <td>2125</td>
+
+            </tr><tr>
+                <th rowspan="4">R2L</th>
+                <td>KNN</td>
+                <td>
+                        0.96
+                </td>
+                <td>0.98</td>
+                <td>0.97</td>
+                <td>2085</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>0.94
+                </td>
+                <td>0.89</td>
+                <td>0.92</td>
+                <td>1007</td>
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+0.91
+                </td>
+                <td>0.66</td>
+                <td>0.76</td>
+                <td>953</td>
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>
+0.85
+                </td>
+                <td>0.84</td>
+                <td>0.85</td>
+                <td>953</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">ACCURACY</th>
+                <td>KNN</td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.95</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>
+
+                </td>
+                <td></td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">MACRO AVERAGE</th>
+                <td>KNN</td>
+                <td>
+                    0.95
+
+                </td>
+                <td>0.96</td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>
+0.95
+                </td>
+                <td>0.97</td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>
+0.95
+                </td>
+                <td>0.89</td>
+                <td>0.92</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>0.94
+
+                </td>
+                <td>0.93</td>
+                <td>0.94</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <th rowspan="4">WEIGHTED AVERAGE</th>
+                <td>KNN</td>
+                <td>0.97
+                </td>
+                <td>0.97</td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>RANDOM FOREST</td>
+                <td>
+0.98
+                </td>
+                <td>0.97</td>
+                <td>0.97</td>
+                <td>21415</td>
+
+            </tr>
+            <tr>
+                <td>
+                    CNN
+                </td>
+                <td>0.95
+                </td>
+                <td>0.95</td>
+                <td>0.95</td>
+
+                <td>21415</td>
+            </tr>
+            <tr>
+                <td>
+                    LSTM
+                </td>
+                <td>0.96
+
+                </td>
+                <td>0.96</td>
+                <td>0.96</td>
+                <td>21415</td>
+
+            </tr>
+            </tbody>
+          </table>
+    </div>
+      </div>
+
+
+<%-include('partials/footer') %>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 200);
+}
+<%-include('partials/loadfoot') %>
