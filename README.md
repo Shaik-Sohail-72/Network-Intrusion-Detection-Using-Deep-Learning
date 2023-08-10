@@ -22,7 +22,6 @@ This project detects Network Intrusion anomalies by using NSL - KDD data-set. Th
 The user enters the hacking parameters in the front end which is designed by using ReactJS. The model predicts the type of attack and gives information about the type of attack to the user. MongoDB is used for storing the data and NodeJS is served as back end framework.
 
 The project is fully responsive and completely based on session and cookies concepts. Once the user authenticated and logged-in It will not ask the user to enter the login parameters again and again (next visit). It ask login parameters only when user click on logout button. And also using google oauth 2.0 for user authentication and storing user details in salted hash in the mongoDB.
-
 ## Some Screenshots: 
 ![1](https://user-images.githubusercontent.com/106341416/209460151-2bc95890-473f-4ea3-bfa6-9da18b999ec0.png)
 
